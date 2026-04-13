@@ -12,6 +12,7 @@ This project implements a complete image classification pipeline using the Intel
 ## Dataset
 
 Dataset used: Intel Image Classification
+URL: https://www.kaggle.com/datasets/puneet6060/intel-image-classification 
 
 Classes:
 
