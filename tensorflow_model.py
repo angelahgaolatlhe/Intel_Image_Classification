@@ -26,7 +26,7 @@ def build_model():
 
         # Conv Block 4
         layers.Conv2D(128, (3, 3), activation='relu', padding='same'),
-        layers.GlobalAveragePooling2D(),      # mirrors PyTorch AdaptiveAvgPool
+        layers.GlobalAveragePooling2D(),    
 
         # Classifier
         layers.Dense(256, activation='relu'),
