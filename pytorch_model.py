@@ -42,9 +42,9 @@ class CNNModel(nn.Module):
 
 def train():
     transform = transforms.Compose([
-        transforms.Resize((150, 150)),       # standardized to 150x150
+        transforms.Resize((150, 150)),     
         transforms.RandomHorizontalFlip(),
-        transforms.RandomRotation(10),       # added extra augmentation
+        transforms.RandomRotation(10),      
         transforms.ColorJitter(brightness=0.2, contrast=0.2),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406],
