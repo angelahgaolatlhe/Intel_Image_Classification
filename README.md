@@ -268,7 +268,6 @@ Mine is live at:
 
 ```
 https://intel-image-classification-cs7n.onrender.com/
-
 ```
 
 ---
