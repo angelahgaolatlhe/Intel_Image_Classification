@@ -1,11 +1,11 @@
-# SceneLens — Intel Image Classification
+# Leitlho le le ntshotsho Intel Image Classification pipeline
 
 A dual-framework image classification project that trains and deploys two
 convolutional neural networks in **PyTorch** and in **TensorFlow**
 to classify natural and urban scenes from the
 [Intel Image Classification dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification).
 
-The project includes a **Flask web application** called SceneLens where users can upload a photo
+The project includes a **Flask web application** called Leitlho le le ntshotsho where users can upload a photo
 and get a predicted scene class from either model.
 
 ---
